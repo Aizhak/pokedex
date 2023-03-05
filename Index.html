@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+   
+    <div data-poke-card class="poke-card">
+        <form action="" onsubmit="searchPokemon(event)">
+            <input type="text" name="pokemon" autocomplete="off">
+        </form>
+
+<section class="poke-info">
+<!-- lef tside -->
+    <section class="left-info"> 
+        <div data-poke-name >Pokedex</div>
+    <!-- imagen -->
+            <div data-poke-img-container class="img-container">
+                <img data-poke-img class="poke-img" src="./poke-shadow.png"/>
+            </div>
+    <!-- caja con tipos -->
+            <div data-poke-id></div>
+            <div data-poke-types class="pokeTypes">
+                <span class="type-box grass">Grass</span><span class="type-box poison">poison</span>
+            </div>
+        <!-- caja con stats -->
+            <div data-poke-stats class="poke-stats"></div>
+    </section>
+    <!-- right side -->
+    <section class="right-info">
+        <div id="pokemon-description"></div>
+    </section>
+</section>
+            </div>
+  
+
+        
+       
+
+</body>
+</html>
